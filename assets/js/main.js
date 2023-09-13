@@ -15,7 +15,7 @@ YT.ready(_=>{
                 //player.mute();
                 e.target.setVolume(50);
                 clearInterval(loadInterval)
-                button.innerText = "котак шалмыт блят акас нахуй ^_^"
+                button.innerText = "click"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
