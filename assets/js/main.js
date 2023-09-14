@@ -15,7 +15,7 @@ YT.ready(_=>{
                 //player.mute();
                 e.target.setVolume(50);
                 clearInterval(loadInterval)
-                button.innerText = "cyphersky <3"
+                button.innerText = "click"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
@@ -26,7 +26,7 @@ YT.ready(_=>{
     });
 })
 
-const xd = ["⠟","⠯","⠷","⠾","⠽","⠻"].reverse();
+const xd = [".","..","..."].reverse();
 let i = 0;
 loadInterval = setInterval( _ => {
     if (i==xd.length) i=0
