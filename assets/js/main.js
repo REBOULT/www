@@ -26,7 +26,7 @@ YT.ready(_=>{
     });
 })
 
-const xd = [".","..","..."].reverse();
+const xd = [".","..","...","..",".","..","...","..","."].reverse();
 let i = 0;
 loadInterval = setInterval( _ => {
     if (i==xd.length) i=0
